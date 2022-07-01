@@ -9,6 +9,7 @@ salaryReMonth = re.compile(r"月給(.+?)円")
 
 def getSalary(salaryStr):
 
+    # test
     resHour = re.search(salaryReHour,salaryStr)
     resMonth = re.search(salaryReMonth,salaryStr)
     salaryNmHour, salaryNmMonth = None, None
